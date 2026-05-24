@@ -3,7 +3,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Full--Stack%20Engineer-0f1923?style=for-the-badge&logoColor=00b4d8&color=0f1923&labelColor=00b4d8"/>
     <img src="https://img.shields.io/badge/IIoT%20%26%20Cloud-0f1923?style=for-the-badge&color=0f1923&labelColor=0f1923&logoColor=00b4d8"/>
-    <img src="https://img.shields.io/badge/<!--START_YEARS-->12<!--END_YEARS-->%2B%20Years%20Experience-0f1923?style=for-the-badge&color=0f1923&labelColor=00b4d8&logoColor=ffffff"/>
+    <img src="https://img.shields.io/badge/12%2B%20Years%20Experience-0f1923?style=for-the-badge&color=0f1923&labelColor=00b4d8&logoColor=ffffff"/>
   </p>
   <p align="center">
     <a href="https://diipeshraichana.github.io/portfolio">
@@ -106,7 +106,7 @@ I work across the full stack — Angular and React frontends, Node.js backends, 
 
 | | |
 |---|---|
-| 🕐 Years shipping software | **<!--START_YEARS-->12<!--END_YEARS-->+** |
+| 🕐 Years shipping software | **12+** |
 | ⚡ Airflow pipeline speedup | **80%+** |
 | 🚀 Deploy time reduction | **~40%** |
 | 🔍 Search latency reduction | **~90%** |
