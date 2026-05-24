@@ -2,41 +2,46 @@ name: Update years of experience
 
 on:
   schedule:
-    - cron: '0 0 1 1 *'   # Runs at midnight on Jan 1st every year
-  workflow_dispatch:        # Allows manual trigger from Actions tab anytime
+    - cron: '0 0 1 1 *'    # Runs at midnight on Jan 1st every year
+  workflow_dispatch:         # Allows manual trigger from Actions tab anytime
 
 jobs:
   update-years:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # Required to push the commit back
+      contents: write        # Required to push the commit back
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Calculate years and update README
+      - name: Calculate years and update README + SVG
         run: |
           START_YEAR=2014
           CURRENT_YEAR=$(date +%Y)
           YEARS=$((CURRENT_YEAR - START_YEAR))
           echo "Calculated: $YEARS years (since $START_YEAR)"
 
-          # Update all occurrences of the placeholder in README.md
+          # Update year token in README.md (both the badge and the table row)
           sed -i "s/<!--START_YEARS-->[0-9]*<!--END_YEARS-->/${YEARS}/g" README.md
 
-          # Show the diff so it's visible in the Actions log
-          git diff README.md
+          # Update year pill text inside header.svg
+          sed -i "s/[0-9]*+ YRS EXPERIENCE/${YEARS}+ YRS EXPERIENCE/g" header.svg
 
-      - name: Commit and push if README changed
+          echo "--- README diff ---"
+          git diff README.md || true
+          echo "--- SVG diff ---"
+          git diff header.svg || true
+
+      - name: Commit and push if anything changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git diff --quiet README.md; then
-            echo "No changes to commit — year is already up to date."
+          if git diff --quiet README.md header.svg; then
+            echo "No changes — year is already up to date."
           else
-            git add README.md
+            git add README.md header.svg
             git commit -m "chore: auto-update years of experience to $(date +%Y)"
             git push
-            echo "README.md updated and pushed."
+            echo "Files updated and pushed successfully."
           fi
