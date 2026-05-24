@@ -1,0 +1,42 @@
+name: Update years of experience
+
+on:
+  schedule:
+    - cron: '0 0 1 1 *'   # Runs at midnight on Jan 1st every year
+  workflow_dispatch:        # Allows manual trigger from Actions tab anytime
+
+jobs:
+  update-years:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Required to push the commit back
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Calculate years and update README
+        run: |
+          START_YEAR=2014
+          CURRENT_YEAR=$(date +%Y)
+          YEARS=$((CURRENT_YEAR - START_YEAR))
+          echo "Calculated: $YEARS years (since $START_YEAR)"
+
+          # Update all occurrences of the placeholder in README.md
+          sed -i "s/<!--START_YEARS-->[0-9]*<!--END_YEARS-->/${YEARS}/g" README.md
+
+          # Show the diff so it's visible in the Actions log
+          git diff README.md
+
+      - name: Commit and push if README changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "No changes to commit — year is already up to date."
+          else
+            git add README.md
+            git commit -m "chore: auto-update years of experience to $(date +%Y)"
+            git push
+            echo "README.md updated and pushed."
+          fi
