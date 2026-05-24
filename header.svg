@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <radialGradient id="b1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7b2ff7" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7b2ff7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e040fb" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#e040fb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00b4d8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00b4d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="#0f1923"/>
+
+  <!-- Bubbles -->
+  <ellipse cx="80"  cy="50"  rx="110" ry="110" fill="url(#b1)"/>
+  <ellipse cx="720" cy="30"  rx="90"  ry="90"  fill="url(#b2)"/>
+  <ellipse cx="300" cy="170" rx="80"  ry="80"  fill="url(#b3)"/>
+  <ellipse cx="520" cy="60"  rx="65"  ry="65"  fill="url(#b4)"/>
+  <ellipse cx="860" cy="140" rx="90"  ry="90"  fill="url(#b5)"/>
+  <ellipse cx="150" cy="160" rx="55"  ry="55"  fill="url(#b2)"/>
+  <ellipse cx="640" cy="150" rx="70"  ry="70"  fill="url(#b1)"/>
+
+  <!-- Name -->
+  <text x="450" y="85"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="42" font-weight="700"
+    fill="#ffffff" text-anchor="middle"
+    letter-spacing="1">Hi, I'm Diipesh 👋</text>
+
+  <!-- Subtitle pills -->
+  <!-- Pill 1 -->
+  <rect x="152" y="105" width="188" height="28" rx="14" fill="#00b4d8" fill-opacity="0.15" stroke="#00b4d8" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="246" y="123"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" font-weight="600" fill="#00e5ff" text-anchor="middle"
+    letter-spacing="1.5">FULL-STACK ENGINEER</text>
+
+  <!-- Pill 2 -->
+  <rect x="356" y="105" width="188" height="28" rx="14" fill="#00b4d8" fill-opacity="0.15" stroke="#00b4d8" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="450" y="123"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" font-weight="600" fill="#00e5ff" text-anchor="middle"
+    letter-spacing="1.5">IIoT &amp; CLOUD</text>
+
+  <!-- Pill 3 -->
+  <rect x="560" y="105" width="188" height="28" rx="14" fill="#00b4d8" fill-opacity="0.15" stroke="#00b4d8" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="654" y="123"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" font-weight="600" fill="#00e5ff" text-anchor="middle"
+    letter-spacing="1.5">12+ YRS EXPERIENCE</text>
+
+  <!-- Links row -->
+  <text x="237" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#90caf9" text-anchor="middle">🌐 Portfolio</text>
+  <text x="350" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#b0b0b0" text-anchor="middle">·</text>
+  <text x="430" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#90caf9" text-anchor="middle">✉ Email</text>
+  <text x="510" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#b0b0b0" text-anchor="middle">·</text>
+  <text x="590" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#90caf9" text-anchor="middle">💼 LinkedIn</text>
+  <text x="683" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#b0b0b0" text-anchor="middle">·</text>
+  <text x="763" y="168"
+    font-family="Segoe UI, Helvetica Neue, Arial, sans-serif"
+    font-size="12" fill="#90caf9" text-anchor="middle">📍 Ahmedabad, India</text>
+</svg>

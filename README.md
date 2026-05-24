@@ -1,28 +1,6 @@
 <p align="center">
-  <h1 align="center">Hi, I'm Diipesh 👋</h1>
-  <p align="center">
-    <img src="https://img.shields.io/badge/Full--Stack%20Engineer-0f1923?style=for-the-badge&logoColor=00b4d8&color=0f1923&labelColor=00b4d8"/>
-    <img src="https://img.shields.io/badge/IIoT%20%26%20Cloud-0f1923?style=for-the-badge&color=0f1923&labelColor=0f1923&logoColor=00b4d8"/>
-    <img src="https://img.shields.io/badge/12%2B%20Years%20Experience-0f1923?style=for-the-badge&color=0f1923&labelColor=00b4d8&logoColor=ffffff"/>
-  </p>
-  <p align="center">
-    <a href="https://diipeshraichana.github.io/portfolio">
-      <img src="https://img.shields.io/badge/Portfolio-0f1923?style=flat-square&logo=firefox&logoColor=00b4d8"/>
-    </a>
-    &nbsp;
-    <a href="mailto:diipeshraichana009@gmail.com">
-      <img src="https://img.shields.io/badge/Email-0f1923?style=flat-square&logo=gmail&logoColor=00b4d8"/>
-    </a>
-    &nbsp;
-    <a href="https://linkedin.com/in/diipeshraichana-091b6979">
-      <img src="https://img.shields.io/badge/LinkedIn-0f1923?style=flat-square&logo=linkedin&logoColor=00b4d8"/>
-    </a>
-    &nbsp;
-    <img src="https://img.shields.io/badge/📍%20Ahmedabad%2C%20India-0f1923?style=flat-square&logoColor=00b4d8"/>
-  </p>
+  <img src="https://raw.githubusercontent.com/diipeshraichana/diipeshraichana/main/header.svg" width="100%" alt="Diipesh Raichana — Full-Stack Engineer, IIoT & Cloud"/>
 </p>
-
-<img src="https://raw.githubusercontent.com/diipeshraichana/diipeshraichana/main/divider.svg" width="100%" height="4px"/>
 
 ---
 
@@ -63,7 +41,7 @@ I work across the full stack — Angular and React frontends, Node.js backends, 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-0f1923?style=flat-square&logo=kubernetes&logoColor=00b4d8)
 ![Airflow](https://img.shields.io/badge/Apache%20Airflow-0f1923?style=flat-square&logo=apacheairflow&logoColor=00b4d8)
 ![MQTT](https://img.shields.io/badge/MQTT%20%2F%20Edge-0f1923?style=flat-square&logo=eclipsemosquitto&logoColor=00b4d8)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-0f1923?style=flat-square&logo=githubactions&logoColor=00b4d8)
+![CICD](https://img.shields.io/badge/CI%2FCD-0f1923?style=flat-square&logo=githubactions&logoColor=00b4d8)
 
 **🤖 AI & Exploring**
 
@@ -106,7 +84,7 @@ I work across the full stack — Angular and React frontends, Node.js backends, 
 
 | | |
 |---|---|
-| 🕐 Years shipping software | **12+** |
+| 🕐 Years shipping software | **<!--START_YEARS-->12<!--END_YEARS-->+** |
 | ⚡ Airflow pipeline speedup | **80%+** |
 | 🚀 Deploy time reduction | **~40%** |
 | 🔍 Search latency reduction | **~90%** |
@@ -117,7 +95,7 @@ I work across the full stack — Angular and React frontends, Node.js backends, 
 
 ![CSM](https://img.shields.io/badge/Certified%20Scrum%20Master%20%E2%80%94%20Scrum%20Alliance%20(2024)-0f1923?style=flat-square&logo=scrumalliance&logoColor=00b4d8)
 ![AWS](https://img.shields.io/badge/AWS%20Cloud%20Practitioner%20Essentials-0f1923?style=flat-square&logo=amazonaws&logoColor=00b4d8)
-![AI](https://img.shields.io/badge/Elements%20of%20AI%20%E2%80%94%20Univ.%20of%20Helsinki-0f1923?style=flat-square&logo=academia&logoColor=00b4d8)
+![AI](https://img.shields.io/badge/Elements%20of%20AI%20%E2%80%94%20Univ.%20of%20Helsinki-0f1923?style=flat-square&logoColor=00b4d8)
 ![Angular](https://img.shields.io/badge/Shaping%20Up%20with%20Angular.js%20%E2%80%94%20Code%20School-0f1923?style=flat-square&logo=angular&logoColor=00b4d8)
 
 ---
